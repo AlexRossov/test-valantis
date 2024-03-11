@@ -11,7 +11,7 @@ export const generateAuthToken = () => {
 const authToken = generateAuthToken();
 
 export const fetchData = async (action, params) => {
-  const response = await axios.post('http://api.valantis.store:40000/',
+  const response = await axios.post('https://api.valantis.store:41000/',
     {
       action,
       params
